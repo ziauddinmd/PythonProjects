@@ -5,7 +5,7 @@ import csv
 # Get Flipkart source code
 url = "https://www.flipkart.com/search?q=laptop&page=1"
 header = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77'}
-MyRequests = requests.get(url, header)
+#MyRequests = requests.get(url, header)
 print(MyRequests)
 
 # Send requested code to soup
